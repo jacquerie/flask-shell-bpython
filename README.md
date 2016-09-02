@@ -8,6 +8,10 @@ BPython. Inspired by `flask-shell-ipython` by @ei-grad.
 ```
 pip install flask-shell-bpython
 ```
+or install directly from GitHub
+```
+pip install https://github.com/jacquerie/flask-shell-bpython/archive/master.zip
+```
 
 ## Usage ##
 
