@@ -9,8 +9,8 @@
 About
 =====
 
-Replace the default ``flask shell`` command with a similar command running
-BPython. Inspired by `flask-shell-ipython`_ by `@ei-grad`_.
+Replace the default ``flask shell`` command with a similar one running BPython.
+Inspired by `flask-shell-ipython`_ by `@ei-grad`_.
 
 .. _`flask-shell-ipython`: https://github.com/ei-grad/flask-shell-ipython
 .. _`@ei-grad`: https://github.com/ei-grad
