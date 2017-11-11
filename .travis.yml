@@ -21,7 +21,7 @@ install:
   - pip install -e .[tests]
 
 script:
-  - py.test flask_shell_bpython.py
+  - ./run-tests.sh
 
 deploy:
   provider: pypi
