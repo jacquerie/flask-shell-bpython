@@ -19,6 +19,8 @@ Inspired by `flask-shell-ipython`_ by `@ei-grad`_.
 Install
 =======
 
+``flask-shell-bpython`` is on PyPI, so all you have to do is:
+
 .. code-block:: console
 
     $ pip install flask-shell-bpython
@@ -27,16 +29,21 @@ Install
 Usage
 =====
 
+``flask-shell-bpython`` hooks itself into Flask through an entry point, so all
+you have to do is:
+
 .. code-block:: console
 
     $ flask shell
-    Python 2.7.12 (default, Jun 29 2016, 14:04:44)
-    [GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)] on darwin
-    BPython: 0.15
-    App: hello
-    Instance: /Users/jacquerie/Code/flask-shell-bpython/instance
 
-    >>>
+
+Alternatives
+============
+
+If you prefer IPython you can use `flask-shell-ipython`_, while if you prefer
+PTPython you can use `flask-shell-ptpython`_.
+
+.. _`flask-shell-ptpython`: https://github.com/jacquerie/flask-shell-ptpython
 
 
 Author
